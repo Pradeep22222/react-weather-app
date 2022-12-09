@@ -7,7 +7,3 @@
   display: flex;
   justify-content: space-between;
 }
-.displayareaweathercardrow{
-    display:flex;
-    flex-direction: column;
-}
