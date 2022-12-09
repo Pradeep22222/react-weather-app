@@ -15,7 +15,7 @@ export const SearchForm = ({onCitySubmit}) => {
   return (
     <div>
       <h1 className="text-center mt-5">Weather App</h1>
-      <Form onSubmit={onCitySubmit(city)}>
+      <Form onSubmit={(e) => { e.preventDefault();  onCitySubmit(city);}}>
         <Row>
           <Col></Col>
           <Col>
